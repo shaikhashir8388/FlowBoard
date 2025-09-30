@@ -26,7 +26,7 @@ const BoardPage = () => {
   }, [isAuthenticated, authLoading, router]);
 
   useEffect(() => {
-    if (boardId && isAuthenticated) {
+    if (boardId && isAuthenticated) {``
       fetchBoard();
       fetchTasks();
       fetchAllUsers();
