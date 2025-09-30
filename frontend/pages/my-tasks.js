@@ -5,7 +5,7 @@ import TaskCard from '../components/TaskCard';
 import TaskModal from '../components/TaskModal';
 import { tasksAPI } from '../utils/api';
 import { useRouter } from 'next/router';
-import { toast } from 'react-hot-toast'; 
+import { toast } from 'react-hot-toast';  
  
 const MyTasks = () => {
   const { isAuthenticated, loading: authLoading } = useAuth();
